@@ -1,0 +1,72 @@
+.banner2
+{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    height: auto;
+    width: 100%;
+
+}
+.intro
+{
+    font-family: gilroy-medium, sans-serif;
+    font-size: 40px;
+    padding-left: 90px;
+    padding-top: 70px;
+    color:#383837;
+    line-height: 1.05;
+    width: auto;
+    margin-top: 250px;
+    letter-spacing: -0.5px;
+    text-align: left;
+    
+}
+.photos
+{
+    height: 800px;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    margin-left: 100px;
+
+
+}
+.sunset,.flower{
+    border-radius: 40px;
+    width: 450px;
+    height: 92%;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    margin-top: 100px;
+    margin-left: -300px;
+    transform: rotate(-15deg);
+    transition: -webkit-filter 900ms;
+}
+.waves
+{
+    border-radius: 40px;
+    width: 450px;
+    height: 92%;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    margin-top: 50px;
+    transform: rotate(-15deg);
+    transition: -webkit-filter 900ms;
+}
+.waves:hover,.sunset:hover,.flower:hover
+{
+    
+    -webkit-filter: grayscale(0);
+    filter: none;
+}
+.flower{
+    margin-top: 140px;
+}
+.sp
+{
+    color: #5FCFA0;
+    font-family: "MAZIUS REVIEW 20.09", sans-serif;
+    font-style: italic;
+    font-weight: 100;
+}

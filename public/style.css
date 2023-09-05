@@ -1,0 +1,9 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    background-color: #FBFAF8;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
