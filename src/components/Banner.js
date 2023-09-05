@@ -15,7 +15,7 @@ export default function Banner() {
         <Fade top>
         <div className="sub1">
                 CURRENTLY AVAILABLE <span className="sp"> FOR </span>
-                FREELANCE WORLDWIDE.
+                FREELANCE WORLDWIDE
         </div>
         </Fade>
         <Fade bottom>
